@@ -1,1 +1,3 @@
-console.log('--------------- >  Hello World <---------------');
+import { hello } from './modules';
+
+console.log(hello);
