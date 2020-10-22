@@ -1,7 +1,5 @@
-import { hello, name, location, getGreeting } from './modules';
+import { GraphQLServer } from 'graphql-yoga';
 
-console.log(hello);
-console.log(name);
-console.log(location);
+//Type Definitions (schema) this is where GQL self documents as well as type constraints
 
-console.log(getGreeting('Hi', 'Jim', 'Toledo'));
+//Resolvers (functions that run when we run a specific query)
